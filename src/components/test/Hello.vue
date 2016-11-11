@@ -14,7 +14,8 @@ export default {
       // its initial state.
       msg: 'Hello World!'
     }
-  }
+  },
+  name: 'test'
 }
 </script>
 

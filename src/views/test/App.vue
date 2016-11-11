@@ -1,10 +1,11 @@
 <template>
   <div id="app">
-    <img class="logo" src="./assets/logo.png">
+    <img class="logo" src="../../assets/logo.png">
     <button @click="toastrSuccess">Success</button>
     <button @click="toastrInfo">Info</button>
     <button @click="toastrWarn">Warn</button>
     <button @click="toastrError">error</button>
+    <!--<hello></hello>-->
     <hello></hello>
   </div>
 </template>
@@ -19,12 +20,13 @@
 </style>
 
 <script>
-import Hello from './components/Hello'
+import hello from '../../components/test/Hello'
 import miniToastr from 'mini-toastr'
 
 export default {
   components: {
-    Hello
+    // 'test': require('./components/Hello.vue')
+    'hello': hello
   },
   methods: {
     toastrSuccess: function () {
