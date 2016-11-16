@@ -1,0 +1,69 @@
+/*标签通用*/
+textarea {
+  overflow: auto;
+  resize: vertical;
+}
+/*类通用样式 可以写成mixin?*/
+.center1 {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+/*铺满容器*/
+.overlay1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.height-auto1 {
+  position: absolute;
+  top: 0;
+  /*可以根据头部的具体高度进行调整*/
+  bottom: 0;
+}
+/*达到紧贴底部的效果*/
+.close-bottom1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /*可以根据需要进行调整*/
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.cl {
+  clear: both;
+}
+.hide {
+  display: block !important;
+}
+.show {
+  display: none !important;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+[role=button],
+button,
+[type=button],
+[type=submit] {
+  cursor: pointer;
+}
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.break {
+  word-break: break-all;
+  word-wrap: break-word;
+}

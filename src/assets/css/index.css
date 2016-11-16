@@ -1,0 +1,247 @@
+/*Reset*/
+html,
+body,
+div,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+p,
+pre,
+table,
+tbody,
+thead,
+tfoot,
+tr,
+td,
+section,
+header,
+footer,
+article,
+aside,
+nav,
+audio,
+video,
+span,
+a,
+button,
+label,
+input,
+select,
+textarea,
+img {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+/*button,input,select{border:none;outline:none;}*/
+a {
+  text-decoration: none;
+}
+dl,
+ol,
+ul,
+li {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+button,
+select {
+  text-transform: none;
+}
+/*文字大小写*/
+input,
+select {
+  -webkit-appearance: none;
+}
+/*手机上的显示外观*/
+/*标签通用*/
+textarea {
+  overflow: auto;
+  resize: vertical;
+}
+/*类通用样式 可以写成mixin?*/
+.center1 {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+/*铺满容器*/
+.overlay1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.height-auto1 {
+  position: absolute;
+  top: 0;
+  /*可以根据头部的具体高度进行调整*/
+  bottom: 0;
+}
+/*达到紧贴底部的效果*/
+.close-bottom1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /*可以根据需要进行调整*/
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.cl {
+  clear: both;
+}
+.hide {
+  display: block !important;
+}
+.show {
+  display: none !important;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+[role=button],
+button,
+[type=button],
+[type=submit] {
+  cursor: pointer;
+}
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.break {
+  word-break: break-all;
+  word-wrap: break-word;
+}
+/*页面样式库*/
+html,
+body {
+  font-family: "Microsoft YaHei", Helvetica, Arial, Sans-Serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+button {
+  color: #fff !important;
+}
+button:hover,
+button:focus,
+button:active {
+  color: #fff;
+}
+button,
+.btn,
+input[type=button],
+input[type=submit] {
+  color: #fff;
+  background-image: -webkit-linear-gradient(top left, #5080a0, #5080E1);
+  border: 1px solid #5080a0;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.418);
+}
+button:active,
+.btn:active,
+input[type=button]:active,
+input[type=submit]:active {
+  box-shadow: inset 0 5px 3px rgba(0, 0, 0, 0.118), 0 3px 3px rgba(0, 0, 0, 0.418);
+  background-image: -webkit-linear-gradient(top left, #5080a0, #5080E1);
+}
+button:focus,
+.btn:focus,
+input[type=button]:focus,
+input[type=submit]:focus {
+  background-image: -webkit-linear-gradient(top left, #5080a0, #5080E1);
+}
+.btn.btn-lg {
+  width: 200px;
+  height: 50px;
+}
+.btn.btn-sm {
+  width: 100px;
+  height: 30px;
+}
+.btn.btn-nm {
+  width: 150px;
+  height: 40px;
+}
+input[type=checkbox] {
+  vertical-align: middle;
+}
+input[type=checkbox] + label {
+  padding: 10px;
+  vertical-align: middle;
+  color: #fc3;
+}
+input[type=checkbox]:checked {
+  background-color: #000;
+  color: #fff;
+}
+input[type=text] {
+  width: 300px;
+  height: 24px;
+  padding: 3px 5px;
+  border-radius: 3px 0 0 3px;
+  border: 1px solid #bdbdbd;
+}
+input::-webkit-input-placeholder {
+  color: #bdbdbd;
+}
+.dotted-li1 {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px dotted #bdbdbd;
+}
+.br1 {
+  border-radius: 3px;
+}
+.box-padding1 {
+  padding: 5px 15px;
+}
+.page-container {
+  width: 970px;
+  margin: auto;
+}
+.page-padding1 {
+  padding: 15px;
+}
+.bc1 {
+  color: #333;
+  background-color: #fff;
+  opacity: 0.8;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.4);
+}
+.page-header {
+  height: 50px;
+  color: #fff;
+  background-color: #2C333F;
+}
+.page-main-nav {
+  width: 50px;
+  color: #000;
+  background-color: #354050;
+}

@@ -1,0 +1,53 @@
+/*标签通用*/
+textarea{overflow: auto;resize:vertical;}
+
+/*类通用样式 可以写成mixin?*/
+.center1{
+  position:absolute;
+  margin:auto;top:0;left:0;right:0;bottom:0;
+}
+/*铺满容器*/
+.overlay1{
+  position:absolute;
+  top:0;left:0;right:0;bottom:0;
+}
+//高度自适应
+.height-auto1{
+  position:absolute;
+  top:0;/*可以根据头部的具体高度进行调整*/
+  bottom:0;
+}
+//还可以加入登高布局,留着填空
+
+/*达到紧贴底部的效果*/
+.close-bottom1{
+  position:absolute;
+  left:0;right:0;
+  bottom:0;/*可以根据需要进行调整*/
+}
+//浮动、清除浮动
+.fl{float:left;}
+.fr{float:right;}
+.cl{clear:both;}
+
+//块元素的显示、隐藏
+.hide{display:block !important;}
+.show{display:none !important;}
+
+//光标设置
+.cursor-pointer{cursor:pointer;}
+[role=button],button,[type=button],[type=submit]{
+  cursor:pointer;
+}
+
+//文字溢出处理
+.ellipsis{
+  white-space:nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.break{
+  word-break:break-all;
+  word-wrap:break-word;
+}
+

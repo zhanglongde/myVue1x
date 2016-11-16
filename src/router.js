@@ -3,12 +3,16 @@
  */
 import Hello from './components/test/Hello.vue'
 import App from './views/test/App.vue'
-import Main from './views/Main.vue'
+import Home from './views/Home.vue'
+import Disk from './views/Disk.vue'
 import Login from './views/Login.vue'
 import Svg from './views/test/svg.vue'
 
 // 路由map
 module.exports = {
+  '/': {
+    component: Home
+  },
   '/hello': {
     component: Hello
   },
@@ -16,7 +20,7 @@ module.exports = {
     component: Login
   },
   '/drive': {
-    component: Main
+    component: Disk
   },
   '/app': {
     component: App
