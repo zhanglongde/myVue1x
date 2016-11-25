@@ -7,6 +7,9 @@ import Home from './views/Home.vue'
 import Disk from './views/Disk.vue'
 import Login from './views/Login.vue'
 import Svg from './views/test/svg.vue'
+import Es6 from './views/es6/es6.vue'
+import Notification from './components/test/Notification.vue'
+import VFocus from './components/test/VFocus.vue'
 
 // 路由map
 module.exports = {
@@ -25,8 +28,17 @@ module.exports = {
   '/app': {
     component: App
   },
-  'svg': {
+  '/svg': {
     component: Svg
+  },
+  '/es6': {
+    component: Es6
+  },
+  '/Notification': {
+    component: Notification
+  },
+  '/vfocus': {
+    component: VFocus
   },
   '*': {
     component: App
