@@ -13,6 +13,7 @@
   "dependencies": {
     "babel-runtime": "^6.0.0",
     "bulma": "^0.2.3",
+    "in-array": "^0.1.2",
     "mini-toastr": "^0.3.10",
     "node-sass": "^3.13.0",
     "sass-loader": "^4.0.2",
