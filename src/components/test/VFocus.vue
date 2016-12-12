@@ -4,7 +4,7 @@
   <div class="block">
     <!--<input type="text" v-focus="focused" @focus="focused = true" @blur="focused = false">-->
     <input type="text" v-focus="isFocused1" @keydown.down="keyupControl(0)" @keydown.up="upKeyControl(0)">
-    <button @click="toggleFocus">toggle</button>
+    <button @click="toggleFocus">toggle test</button>
   </div>
   <div class="block">
     <input type="text" v-focus="isFocused2" @keydown.down="keyupControl(1)"  @keydown.up="upKeyControl(1)">
