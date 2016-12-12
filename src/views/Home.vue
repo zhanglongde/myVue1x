@@ -20,8 +20,17 @@
     </ul>
   </header>
   <section class="page-container page-main">
-    <section class="page-main-nav"></section>
-    <section class="page-main-content"></section>
+    <section class="page-main-nav">
+      <button>新建联系人</button>
+      <ul>
+        <li>全部联系人</li>
+        <li>群组</li>
+        <li>星标联系人</li>
+      </ul>
+    </section>
+    <section class="page-main-content">
+
+    </section>
   </section>
 </template>
 

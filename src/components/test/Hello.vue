@@ -14,7 +14,7 @@
         // with hot-reload because the reloaded component
         // preserves its current state and we are modifying
         // its initial state.
-        msg: 'Hello World!master branch'
+        msg: 'Hello World for branch test!'
       }
     },
     methods: {
