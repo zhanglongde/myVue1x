@@ -24,11 +24,13 @@
       <button>新建联系人</button>
       <ul>
         <li>全部联系人</li>
-        <li>群组
+        <li>
+          <span>群组</span>
           <ul>
             <li>朋友</li>
             <li>家人</li>
             <li>同事</li>
+            <li>新建群组</li>
           </ul>
         </li>
         <li>星标联系人</li>
