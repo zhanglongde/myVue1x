@@ -10,6 +10,8 @@
     <hello></hello>
     <hello></hello>
     <Notification>111</Notification>
+    <Notification>222/Notification>
+    <Notification>333</Notification>
   </div>
 </template>
 

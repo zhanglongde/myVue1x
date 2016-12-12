@@ -2,8 +2,7 @@
 
 <template>
  <div>main</div>
-  <div>list</div>
-  <div>详情</div>
+
 </template>
 
 <script>
