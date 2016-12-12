@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <span>张龙德</span>
   </div>
 </template>
 
