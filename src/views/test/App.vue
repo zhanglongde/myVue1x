@@ -7,6 +7,8 @@
     <button @click="toastrError">error</button>
     <!--<hello></hello>-->
     <hello></hello>
+    <hello></hello>
+    <hello></hello>
     <Notification>111</Notification>
   </div>
 </template>
