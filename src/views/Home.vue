@@ -37,7 +37,13 @@
       </ul>
     </section>
     <section class="page-main-content">
-
+      <div class="handlebar">
+        <div class="left"></div>
+        <div class="right">
+          <span>全部联系人(20)</span>
+          <span>A-Z</span>
+        </div>
+      </div>
     </section>
   </section>
 </template>
