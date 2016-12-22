@@ -5,6 +5,7 @@
     <span>男</span>
     <span>26</span>
     <span>福建师范大学</span>
+    <span>lazy</span>
   </div>
 </template>
 
