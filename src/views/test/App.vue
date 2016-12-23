@@ -15,6 +15,7 @@
     <Notification>lazy</Notification>
     <Notification>rebase test</Notification>
     <Notification>1</Notification>
+    <Notification>2</Notification>
   </div>
 </template>
 
