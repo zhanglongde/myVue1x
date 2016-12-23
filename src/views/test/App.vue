@@ -14,7 +14,6 @@
     <Notification>333</Notification>
     <Notification>lazy</Notification>
     <Notification>rebase test</Notification>
-    <Notification>1</Notification>
   </div>
 </template>
 
