@@ -9,13 +9,8 @@
     <hello></hello>
     <hello></hello>
     <hello></hello>
-    <Notification>111</Notification>
-    <Notification>222</Notification>
-    <Notification>333</Notification>
     <Notification>lazy</Notification>
     <Notification>rebase test</Notification>
-    <Notification>1</Notification>
-    <Notification>2</Notification>
   </div>
 </template>
 
