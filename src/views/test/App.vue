@@ -13,7 +13,6 @@
     <Notification>222</Notification>
     <Notification>333</Notification>
     <Notification>lazy</Notification>
-    <Notification>rebase test</Notification>
   </div>
 </template>
 
